@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mode" android:title="Dark Mode" android:icon="@drawable/dark_mode_24">
+        <menu>
+            <item android:id="@+id/onBut" android:title="ON" />
+            <item android:id="@+id/offBut" android:title="OFF"/>
+        </menu>
+    </item>
+    <item android:id="@+id/favorite" android:title="Contact Favorite" android:icon="@drawable/star_border_24"/>
+
+</menu>
